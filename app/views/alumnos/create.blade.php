@@ -55,7 +55,7 @@
 	{{ Form::close() }}
 
 	<br/><footer>Proyecto Ingeniería de Software - UTEM 2014<br/>
-				por Gladys Cerro y Joaquín Macías</footer>
+				por Gladys Cerro Miranda y Joaquín Macías Cáceres</footer>
 	</body>   
 </html>
 
