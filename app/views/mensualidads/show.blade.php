@@ -55,7 +55,8 @@
 	<h3>Estado: {{ $mensualidad->estado }}</h3> 
     <!--<h3>Alumno ID: {{ $mensualidad->alumno_id }}</h3>-->
 
-	<br/><footer>Proyecto Ingeniería de Software - UTEM 2014</footer>
+	<br/><footer>Proyecto Ingeniería de Software - UTEM 2014<br/>
+				por Gladys Cerro Miranda y Joaquín Macías Cáceres</footer>
 
 	</body>   
 </html>

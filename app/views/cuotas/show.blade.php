@@ -54,8 +54,8 @@
 	<h3>Monto Pagado: {{ $cuota->MontoPagado }}</h3> 
     <!--<h3>Alumno ID: {{ $cuota->alumno_id }}</h3>-->
 
-	<br/><footer>Proyecto Ingeniería de Software - UTEM 2014</footer>
-
+	<br/><footer>Proyecto Ingeniería de Software - UTEM 2014<br/>
+				por Gladys Cerro Miranda y Joaquín Macías Cáceres</footer>
 	</body>   
 </html>
 

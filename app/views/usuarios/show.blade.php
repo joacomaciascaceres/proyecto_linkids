@@ -52,7 +52,8 @@
 	<h3>Email:</h3> {{ $usuario->email }}
 	<h3>Password:</h3> {{ $usuario->password }}<br/>
 
-	<br/><footer>Proyecto Ingeniería de Software - UTEM 2014</footer>
+	<br/><footer>Proyecto Ingeniería de Software - UTEM 2014<br/>
+				por Gladys Cerro Miranda y Joaquín Macías Cáceres</footer>
 
 	</body>   
 </html>

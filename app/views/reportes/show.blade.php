@@ -57,7 +57,8 @@
 	<h3>Cuerpo: {{ $reporte->Cuerpo }}</h3> 
      <!--<h3>Alumno ID: {{ $reporte->alumno_id }}</h3>-->
 
-	<br/><footer>Proyecto Ingeniería de Software - UTEM 2014</footer>
+	<br/><footer>Proyecto Ingeniería de Software - UTEM 2014<br/>
+				por Gladys Cerro Miranda y Joaquín Macías Cáceres</footer>
 
 	</body>   
 </html>
