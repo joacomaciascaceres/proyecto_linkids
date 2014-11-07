@@ -52,7 +52,7 @@
                 <img src="/img/kids.png" alt="" width="220" height="279">
             </div>
             <div id="loginbox">            
-                <form id="loginform" action="../../../../../Users/Administrador/Desktop/Plantilla_login-master/index.html">
+                <form id="loginform" action="hello.php">
     				<p>Introduzca usuario y contraseña para continuar.</p>
                     <div class="input-group input-sm">
                         <span class="input-group-addon"><i class="fa fa-user"></i></span><input class="form-control" id="username" placeholder="Usuario" type="text">
