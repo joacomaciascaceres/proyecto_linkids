@@ -23,6 +23,8 @@ class UsuarioController extends \BaseController {
 	 */
 	public function create()
 	{
+		/*$user = Usuario::find(1);
+		Auth::login($user);*/
 		return View::make('usuarios.create');
 	}
 
@@ -37,7 +39,7 @@ class UsuarioController extends \BaseController {
 		$usuario = new Usuario;
 		$usuario->nombreusuario = Input::get('nombreusuario');
 		$usuario->email = Input::get('email');
-		$usuario->password = Input::get('password');
+		$usuario->password = Hash::make(Input::get('password'));
 		$usuario->save();
 
 		/* Validación Formulario 

@@ -53,7 +53,10 @@
 	</ul>
 	<h4>Comentario 2: Haga "click" para crear un nuevo Usuario.</h4><br/>
 	<button><a href="usuarios/create">Nuevo</a></button>
+    
+    {{HTML::link('logout','salir')}}
 	@stop
+    
 	<br/><img src="/img/logoeduplan.png"><br/>
 
 	</body>   
