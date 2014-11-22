@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="/img/favicon.png" />
 	  <title>Proyecto LinKids</title>
 
 	  <!--Hoja de Estilo-->

@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	  <title>Proyecto LinKids</title>
+	<link rel="shortcut icon" href="/img/favicon.png" />
+	  <title>Bienvenidos a LinKids</title>
 
 	  <!--Hoja de Estilo-->
       <style>
@@ -13,8 +14,9 @@
 			font-family:'Lato', sans-serif;
 			text-align:center;
 			color: #060606;
-			background-color: #b4c731;
-		}		h4{
+			background-image: url(/img/fondos.png);
+		}		
+		h4{
 			font-size: 12px;
 			margin: 8px 0 0 0;
 		}

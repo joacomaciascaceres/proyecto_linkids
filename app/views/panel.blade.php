@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" href="/img/favicon.png" />
         <title>Panel de Control | Proyecto LinKids</title>
 
         <!--Hoja de Estilo-->
