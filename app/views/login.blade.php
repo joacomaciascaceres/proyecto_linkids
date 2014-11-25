@@ -1,5 +1,4 @@
-
- <!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -15,7 +14,6 @@
 			font-family:'Lato', sans-serif;
 			text-align:center;
 			color: #060606;
-			background-color: #b4c731;
 			background-image: url(/img/fondos.png);
 		}
 		logo {

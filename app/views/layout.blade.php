@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="shortcut icon" href="/img/favicon.png" />
-	  <title>Proyecto LinKids</title>
+	  <title>Bienvenido a LinKids</title>
 
 	  <!--Hoja de Estilo-->
       <style>
@@ -14,7 +14,7 @@
 			font-family:'Lato', sans-serif;
 			text-align:center;
 			color: #060606;
-			background-color: #b4c731;
+			background-image: url(/img/fondos.png);
 		}
 		.welcome {
 			width: 300px;
