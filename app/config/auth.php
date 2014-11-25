@@ -28,7 +28,15 @@ return array(
 	|
 	*/
 
-	'model' => 'User',
+	'model' => 'Usuario',
+	
+	
+	//autenticacion username y password
+	
+	
+	'username' => 'email',
+	'password' => 'password',
+	
 
 	/*
 	|--------------------------------------------------------------------------
@@ -41,7 +49,7 @@ return array(
 	|
 	*/
 
-	'table' => 'users',
+	'table' => 'usuarios',
 
 	/*
 	|--------------------------------------------------------------------------
