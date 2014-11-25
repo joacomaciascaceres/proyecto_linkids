@@ -52,11 +52,13 @@
     		<a href="reportes/{{ $reporte->id }}">{{ $reporte->Fecha }}</a><br/>
     	@endforeach
   	</ul>
-  	<h4>Comentario 2: Haga "click" para crear un nuevo Usuario.</h4><br/>
-	<button><a href="reportes/create">Nuevo</a></button>
+  	<h4>Comentario 2: Haga "click" para crear un nuevo Reporte.</h4><br/>
+	<button><a href="reportes/create">Nuevo Reporte</a></button>
+
+	<br/><br/><button><h2>{{HTML::link('logout','SALIR')}}</h2></button>
 	@stop
 
-	<br/><img src="/img/logoeduplan.png"><br/>
+	<br/><img src="/img/imagenninos.png" alt="" width="150" height="147"><br/>
 
 	</body>   
 </html>

@@ -56,6 +56,11 @@
 	<h3>Teléfono: {{ $alumno->telefono }}</h3>
 	<!--<h3>Usuario ID: {{ $alumno->usuario_id }}</h3>-->
 
+	<br/><br/><h3>Opciones:</h3>
+	<button><a href="/cuotas/">Ir a Cuotas</a></button><button><a href="/mensualidads/">Ir a Mensualidades</a></button><button><a href="/reportes/">Ir a Reportes</a></button><br/><br/>
+
+	<button><h2>{{HTML::link('logout','SALIR')}}</h2></button>
+
 	<br/><footer>Proyecto Ingeniería de Software - UTEM 2014<br/>
 				por Gladys Cerro Miranda y Joaquín Macías Cáceres</footer>
 

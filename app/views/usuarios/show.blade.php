@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="shortcut icon" href="/img/favicon.png" />
-	  <title>Bienvenido a LinKids</title>
+	  <title>Bienvenidos a LinKids</title>
 
 	  <!--Hoja de Estilo-->
       <style>
@@ -51,7 +51,12 @@
 	{{ Form::close() }}
 	<h3>Usuario:</h3> {{ $usuario->nombreusuario }}
 	<h3>Email:</h3> {{ $usuario->email }}
-	<h3>Password:</h3> {{ $usuario->password }}<br/>
+	<!--<h3>Password:</h3> {{ $usuario->password }}<br/>-->
+
+	<br/><br/><h3>Opciones:</h3>
+	<button><a href="/alumnos/">Ir a Alumnos</a></button><br/><br/>
+
+	<button><h2>{{HTML::link('logout','SALIR')}}</h2></button>
 
 	<br/><footer>Proyecto Ingeniería de Software - UTEM 2014<br/>
 				por Gladys Cerro Miranda y Joaquín Macías Cáceres</footer>

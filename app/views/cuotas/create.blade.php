@@ -44,9 +44,10 @@
 	<h2>Cuotas > Crear:</h2>
 
 	{{ Form::open(array('url' => 'cuotas')) }}
-	<h3>Fecha Cuota: {{ Form::text('FechaCuota', null, array('placeholder' => 'Introduce la Fecha de tu Cuota')) }}</h3>
-	<h3>Monto Pagado: {{ Form::text('MontoPagado', null, array('placeholder' => 'Introduce el Monto Pagado')) }}</h3>
-    <h3>Alumno ID: {{ Form::text('alumno_id', null, array('placeholder' => 'Introduce el Alumno ID')) }}</h3>
+	<h3>Fecha Cuota: {{ Form::text('FechaCuota', null, array('placeholder' => 'Introduce la Fecha de tu Cuota')) }} (*)</h3>
+	<h3>Monto Pagado: {{ Form::text('MontoPagado', null, array('placeholder' => 'Introduce el Monto Pagado')) }} (*)</h3>
+    <h3>Alumno ID: {{ Form::text('alumno_id', null, array('placeholder' => 'Introduce el Alumno ID')) }} (*)</h3>
+    <br/><h4>(*) Todos los campos son obligatorios.</h4>
 	<h4>Comentario 1: Haga "click" en GUARDAR para salvar la nueva Cuota ingresada.</h4></br>
 	<button>{{ Form::submit('Guardar') }}</button>
 	{{ Form::close() }}

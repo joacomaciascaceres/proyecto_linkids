@@ -53,12 +53,12 @@
     	@endforeach
 	</ul>
 	<h4>Comentario 2: Haga "click" para crear un nuevo Usuario.</h4><br/>
-	<button><a href="usuarios/create">Nuevo</a></button>
+	<button><a href="usuarios/create">Nuevo Usuario</a></button>
     
-    {{HTML::link('logout','salir')}}
+    <br/><br/><button><h2>{{HTML::link('logout','SALIR')}}</h2></button>
 	@stop
     
-	<br/><img src="/img/logoeduplan.png"><br/>
+	<br/><img src="/img/imagenninos.png" alt="" width="150" height="147"><br/>
 
 	</body>   
 </html>

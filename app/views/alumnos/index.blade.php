@@ -53,9 +53,11 @@
     @endforeach
   </ul>
 	<h4>Comentario 2: Haga "click" para crear un nuevo Alumno.</h4><br/>
-	<button><a href="alumnos/create">Nuevo</a></button>
+	<button><a href="alumnos/create">Nuevo Alumno</a></button>
+
+	<br/><br/><button><h2>{{HTML::link('logout','SALIR')}}</h2></button>
 	@stop
-	<br/><img src="/img/logoeduplan.png"><br/>
+	<br/><img src="/img/imagenninos.png" alt="" width="150" height="147"><br/>
 
 	</body>   
 </html>
