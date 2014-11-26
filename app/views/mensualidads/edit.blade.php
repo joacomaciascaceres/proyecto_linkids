@@ -50,7 +50,7 @@
 	<h3>Monto: {{ Form::text('monto', $mensualidad->monto) }}</h3>
 	<h3>Estado: {{ Form::text('estado', $mensualidad->estado) }}</h3>
       {{ Form::hidden('alumno_id', $mensualidad->alumno_id) }}
-	<h4>Comentario 1: Haga "click" en GUARDAR para salvar los datos ingresados.</h4></br>
+	<h4>Haga "click" en GUARDAR para salvar los datos ingresados.</h4></br>
 	<button>{{ Form::submit('Guardar') }}</button>
 	{{ Form::close() }}
 

@@ -49,7 +49,7 @@
 	<h3>Siesta: {{ Form::text('Siesta', $reporte->Siesta) }}</h3>
 	<h3>Cuerpo: {{ Form::text('Cuerpo', $reporte->Cuerpo) }}</h3>
       {{ Form::hidden('alumno_id', $reporte->alumno_id) }}
-	<h4>Comentario 1: Haga "click" en GUARDAR para salvar el Reporte editado.</h4></br>
+	<h4>Haga "click" en GUARDAR para salvar el Reporte editado.</h4></br>
 	<button>{{ Form::submit('Guardar') }}</button>
 	{{ Form::close() }}
 

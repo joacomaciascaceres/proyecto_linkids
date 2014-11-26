@@ -47,7 +47,7 @@
 	<h3>Fecha de Cuota: {{ Form::text('FechaCuota', $cuota->FechaCuota) }}</h3>
 	<h3>Monto Pagado: {{ Form::text('MontoPagado', $cuota->MontoPagado) }}</h3>
     {{ Form::hidden('alumno_id', $cuota->alumno_id) }}
-	<h4>Comentario 1: Haga "click" en GUARDAR para salvar los datos ingresados.</h4></br>
+	<h4>Haga "click" en GUARDAR para salvar los datos ingresados.</h4></br>
 	<button>{{ Form::submit('Guardar') }}</button>
 	{{ Form::close() }}
 

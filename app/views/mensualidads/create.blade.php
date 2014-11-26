@@ -50,7 +50,7 @@
 	<h3>Estado: {{ Form::text('estado', null, array('placeholder' => 'Introduce tu Usuario')) }} (*)</h3>
     <h3>Alumno ID: {{ Form::text('alumno_id', null, array('placeholder' => 'Introduce el Alumno ID')) }} (*)</h3>
     <br/><h4>(*) Todos los campos son obligatorios.</h4>
-	<h4>Comentario 1: Haga "click" en GUARDAR para salvar el nuevo Mensualidad ingresada.</h4></br>
+	<h4>Haga "click" en GUARDAR para salvar el nuevo Mensualidad ingresada.</h4></br>
 	<button>{{ Form::submit('Guardar') }}</button>
 	{{ Form::close() }}
 

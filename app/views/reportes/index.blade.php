@@ -46,13 +46,13 @@
 
 	<h2>Lista de Reportes:</h2>
 
-	<h4>Comentario 1: Haga "click" en algún Reporte para ver el detalle.</h4>
+	<h4>Haga "click" en algún Reporte para ver el detalle.</h4>
 	<ul>
     	@foreach($reportes as $reporte)
     		<a href="reportes/{{ $reporte->id }}">{{ $reporte->Fecha }}</a><br/>
     	@endforeach
   	</ul>
-  	<h4>Comentario 2: Haga "click" para crear un nuevo Reporte.</h4><br/>
+  	<h4>Haga "click" para crear un nuevo Reporte.</h4><br/>
 	<button><a href="reportes/create">Nuevo Reporte</a></button>
 
 	<br/><br/><button><h2>{{HTML::link('logout','SALIR')}}</h2></button>

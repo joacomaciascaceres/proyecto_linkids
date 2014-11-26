@@ -46,13 +46,13 @@
 
 	<h2>Lista de Mensualidades:</h2>
 
-	<h4>Comentario 1: Haga "click" en alguna Mensualidad para ver el detalle.</h4>
+	<h4>Haga "click" en alguna Mensualidad para ver el detalle.</h4>
 	<ul>
     	@foreach($mensualidads as $mensualidad)
     	<a href="mensualidads/{{ $mensualidad->id }}">{{ $mensualidad->fechavencimiento }}</a><br/>
     	@endforeach
   	</ul>
-	<h4>Comentario 2: Haga "click" para crear una nueva Mensualidad.</h4><br/>
+	<h4>Haga "click" para crear una nueva Mensualidad.</h4><br/>
 	<button><a href="mensualidads/create">Nueva Mensualidad</a></button>
 
 	<br/><br/><button><h2>{{HTML::link('logout','SALIR')}}</h2></button>

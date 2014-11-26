@@ -46,13 +46,13 @@
 
 	<h2>Lista de Usuarios:</h2>
 
-	<h4>Comentario 1: Haga "click" en algún Usuario para ver el detalle.</h4>
+	<h4>Haga "click" en algún Usuario para ver el detalle.</h4>
 	<ul>
     	@foreach($usuarios as $usuario)
     	<a href="usuarios/{{ $usuario->id }}">[{{ $usuario->nombreusuario }}]</a><br/>
     	@endforeach
 	</ul>
-	<h4>Comentario 2: Haga "click" para crear un nuevo Usuario.</h4><br/>
+	<h4>Haga "click" para crear un nuevo Usuario.</h4><br/>
 	<button><a href="usuarios/create">Nuevo Usuario</a></button>
     
     <br/><br/><button><h2>{{HTML::link('logout','SALIR')}}</h2></button>

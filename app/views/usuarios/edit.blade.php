@@ -47,7 +47,7 @@
 	<h3>Nombre de Usuario: {{ Form::text('nombreusuario', $usuario->nombreusuario) }}</h3>
 	<h3>Email: {{ Form::text('email', $usuario->email) }}</h3>
 	<h3>Password: {{ Form::text('password', $usuario->password) }}</h3><br/>
-	<h4>Comentario 1: Haga "click" en GUARDAR para salvar los datos ingresados.</h4></br>
+	<h4>Haga "click" en GUARDAR para salvar los datos ingresados.</h4></br>
 	<button>{{ Form::submit('Guardar') }}</button>
 	{{ Form::close() }}
 

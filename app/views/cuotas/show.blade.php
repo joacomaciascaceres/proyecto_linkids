@@ -41,8 +41,8 @@
 
      <body>
     <h2>Cuotas > Ver:</h2>
-	<h4>Comentario 1: Haga "click" en EDITAR para cambiar los valores de una Cuota.</h4>
-	<h4>Comentario 2: Haga "click" en ELIMINAR para borrar los valores de una Cuota permanentemente.</h4><br/>
+	<h4>Haga "click" en EDITAR para cambiar los valores de una Cuota.</h4>
+	<h4>Haga "click" en ELIMINAR para borrar los valores de una Cuota permanentemente.</h4><br/>
 	
 
 	<button><a href="/cuotas/{{ $cuota->id }}/edit">Editar</a></button><br /><br/>

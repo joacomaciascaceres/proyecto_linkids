@@ -46,13 +46,13 @@
 
 	<h2>Lista de Cuotas:</h2>
 
-	<h4>Comentario 1: Haga "click" en alguna Cuota para ver el detalle.</h4>
+	<h4>Haga "click" en alguna Cuota para ver el detalle.</h4>
 	<ul>
     	@foreach($cuotas as $cuota)
     		<a href="cuotas/{{ $cuota->id }}">{{ $cuota->FechaCuota }}</a><br/>
     	@endforeach
   	</ul>
-	<h4>Comentario 2: Haga "click" para crear un nueva Cuota.</h4><br/>
+	<h4>Haga "click" para crear un nueva Cuota.</h4><br/>
 	<button><a href="cuotas/create">Nueva Cuota</a></button>
 
 	<br/><br/><button><h2>{{HTML::link('logout','SALIR')}}</h2></button>

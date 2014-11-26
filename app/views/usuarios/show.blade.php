@@ -41,8 +41,8 @@
 
      <body>
     <h2>Usuario > Ver:</h2>
-	<h4>Comentario 1: Haga "click" en EDITAR para cambiar los valores de un Usuario.</h4>
-	<h4>Comentario 2: Haga "click" en ELIMINAR para borrar los valores de un Usuario permanentemente.</h4><br/>
+	<h4>Haga "click" en EDITAR para cambiar los valores de un Usuario.</h4>
+	<h4>Haga "click" en ELIMINAR para borrar los valores de un Usuario permanentemente.</h4><br/>
 	
 	<button><a href="/usuarios/{{ $usuario->id }}/edit">Editar</a></button><br/><br/>
 	{{ Form::open(array('url' =>'usuarios/' . $usuario->id, 'method' => 'delete')) }}

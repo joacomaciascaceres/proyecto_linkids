@@ -48,7 +48,7 @@
 	<h3>Email:{{ Form::text('email', null, array('placeholder' => 'Introduce tu E-mail')) }} (*)</h3>
 	<h3>Password: {{ Form::text('password', null, array('placeholder' => 'Introduce tu Password')) }} (*)</h3>
 	<br/><h4>(*) Todos los campos son obligatorios.</h4>
-	<h4>Comentario 1: Haga "click" en GUARDAR para salvar el nuevo Usuario ingresado.</h4></br>
+	<h4>Haga "click" en GUARDAR para salvar el nuevo Usuario ingresado.</h4></br>
 	<button>{{ Form::submit('Guardar') }}</button>
 	{{ Form::close() }}
 
