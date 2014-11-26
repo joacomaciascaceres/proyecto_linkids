@@ -40,7 +40,7 @@
      <!--Fin Hoja de Estilo-->
 
      <body>
-    <h2>Usuario > Ver:</h2>
+    <h2>Alumnos > Ver:</h2>
 	<h4>Haga "click" en EDITAR para cambiar los valores de un Alumno.</h4>
 	<h4>Haga "click" en ELIMINAR para borrar los valores de un Alumno permanentemente.</h4><br/>
 	
