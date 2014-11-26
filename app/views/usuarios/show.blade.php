@@ -56,7 +56,8 @@
 	<br/><br/><h3>Opciones:</h3>
 	<button><a href="/alumnos/">Ir a Alumnos</a></button><br/><br/>
 
-	<button><h2>{{HTML::link('logout','SALIR')}}</h2></button>
+	<br/><br/><button><h2>{{HTML::link('logout','SALIR')}}</h2></button>
+	<button><h3><a href="/usuarios/">VOLVER</a></button></h3></button>
 
 	<br/><footer>Proyecto Ingeniería de Software - UTEM 2014<br/>
 				por Gladys Cerro Miranda y Joaquín Macías Cáceres</footer>

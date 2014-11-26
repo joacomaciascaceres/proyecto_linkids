@@ -52,6 +52,9 @@
 	<button>{{ Form::submit('Guardar') }}</button>
 	{{ Form::close() }}
 
+	<br/><br/><button><h2>{{HTML::link('logout','SALIR')}}</h2></button>
+	<button><h3><a href="/alumnos/">VOLVER</a></button></h3></button>
+
 	<br/><footer>Proyecto Ingeniería de Software - UTEM 2014</footer>
 	</body>   
 </html>
