@@ -46,13 +46,13 @@
 
 	<h2>Lista de Alumnos:</h2>
 
-	<h4>Comentario 1: Haga "click" en algún Alumno para ver el detalle.</h4>
+	<h4>Haga "click" en algún Alumno para ver el detalle.</h4>
 	<ul>
     @foreach($alumnos as $alumno)
     <a href="alumnos/{{ $alumno->id }}">{{ $alumno->nombrealumno }}</a><br/>
     @endforeach
   </ul>
-	<h4>Comentario 2: Haga "click" para crear un nuevo Alumno.</h4><br/>
+	<h4>Haga "click" para crear un nuevo Alumno.</h4><br/>
 	<button><a href="alumnos/create">Nuevo Alumno</a></button>
 
 	<br/><br/><button><h2>{{HTML::link('logout','SALIR')}}</h2></button>

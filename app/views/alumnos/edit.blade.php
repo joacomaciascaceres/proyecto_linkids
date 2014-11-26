@@ -50,7 +50,7 @@
 	<h3>Dirección: {{ Form::text('direccion', $alumno->direccion) }}</h3>
 	<h3>Teléfono: {{ Form::text('telefono', $alumno->telefono) }}</h3>
 	{{ Form::hidden('usuario_id', $alumno->usuario_id) }}
-	<h4>Comentario 1: Haga "click" en GUARDAR para salvar los datos ingresados.</h4></br>
+	<h4>Haga "click" en GUARDAR para salvar los datos ingresados.</h4></br>
 	<button>{{ Form::submit('Guardar') }}</button>
 	{{ Form::close() }}
 

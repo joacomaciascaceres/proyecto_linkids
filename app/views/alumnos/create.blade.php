@@ -52,7 +52,7 @@
 	<h3>Teléfono: {{ Form::text('telefono', null, array('placeholder' => 'Introduce tu Teléfono')) }} (*)</h3>
 	<h3>Usuario ID: {{ Form::text('usuario_id', null, array('placeholder' => 'Introduce tu Usuario ID')) }} (*)</h3>
 	<br/><h4>(*) Todos los campos son obligatorios.</h4>
-	<h4>Comentario 1: Haga "click" en GUARDAR para salvar el nuevo Usuario ingresado.</h4></br>
+	<h4>Haga "click" en GUARDAR para salvar el nuevo Usuario ingresado.</h4></br>
 	<button>{{ Form::submit('Guardar') }}</button>
 	{{ Form::close() }}
 
