@@ -63,6 +63,8 @@
     		<br/><br/>{{ Form::label('password', 'Ingrese su password:'); }} 
     		<br/>{{ Form::password('password'); }}
     		<br/><br/>{{ Form::submit('Ingresar'); }}
+
+    		<br/><br/><button><h3>{{HTML::link('logout','Acceso ADMIN')}}</h3></button>
  
 			{{ Form::close() }}
 
