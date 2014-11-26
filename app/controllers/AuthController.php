@@ -31,7 +31,7 @@ class AuthController extends BaseController {
         if(Auth::attempt($userdata))
         {
             // De ser datos válidos nos mandara a la bienvenida
-            return Redirect::to('usuarios');
+            return Redirect::to('alumnos');
         }
 		else{
 			return Redirect::to('login')
