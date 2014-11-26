@@ -41,7 +41,7 @@
 
      <body>
 
-	<h2>Reporte > Crear:</h2>
+	<h2>Usuario > Crear:</h2>
 
 	{{ Form::open(array('url' => 'usuarios')) }}
 	<h3>Nombre de Usuario: {{ Form::text('nombreusuario', null, array('placeholder' => 'Introduce tu Usuario')) }} (*)</h3>

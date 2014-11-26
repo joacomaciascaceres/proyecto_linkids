@@ -66,16 +66,16 @@ Route::get('/', function()
 
 //Route::controller('prueba', 'PruebaController');
 
+Route::resource('usuarios', 'UsuarioController');
 
 
 Route::get('/', function()
 {
 	return View::make('hello');
 });
-Route::group(array('before' => 'auth'), function()
-{
-Route::resource('usuarios', 'UsuarioController');
-	
+//Route::group(array('before' => 'auth'), function()
+//{
+
 Route::resource('cuotas', 'CuotaController');
 
 Route::resource('mensualidads', 'MensualidadController');
@@ -83,7 +83,7 @@ Route::resource('mensualidads', 'MensualidadController');
 Route::resource('reportes', 'ReporteController');
 
 Route::resource('alumnos', 'AlumnoController');
-});
+//});
 
 /*
 

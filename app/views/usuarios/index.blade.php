@@ -52,8 +52,8 @@
     	<a href="usuarios/{{ $usuario->id }}">[{{ $usuario->nombreusuario }}]</a><br/>
     	@endforeach
 	</ul>
-	<h4>Haga "click" para crear un nuevo Usuario.</h4><br/>
-	<button><a href="usuarios/create">Nuevo Usuario</a></button>
+	<!--<h4>Haga "click" para crear un nuevo Usuario.</h4><br/>
+	<button><a href="usuarios/create">Nuevo Usuario</a></button>-->
     
     <br/><br/><button><h2>{{HTML::link('logout','SALIR')}}</h2></button>
 	@stop

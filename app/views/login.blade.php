@@ -64,7 +64,7 @@
     		<br/>{{ Form::password('password'); }}
     		<br/><br/>{{ Form::submit('Ingresar'); }}
 
-    		<br/><br/><button><h3>{{HTML::link('logout','Acceso ADMIN')}}</h3></button>
+    		<br/><br/><button><a href="/usuarios/create">Registrarse</a></button>
  
 			{{ Form::close() }}
 
