@@ -7,7 +7,16 @@ class CuotaController extends \BaseController {
 	 *
 	 * @return Response
 	 */
-	public function index()
+	 
+	public function index() 
+	{
+                $rucio = Auth::user()->id;
+                $laly = Alumno::find($rucio);
+		$cuotas = Cuota::where('alumno_id','=',$laly->id)->get();
+		return View::make('cuotas.index')->with('cuotas', $cuotas);
+	}
+
+	/*public function index()
 	{
 		$cuotas = Cuota::all();
 		return View::make('cuotas.index')->with('cuotas', $cuotas);

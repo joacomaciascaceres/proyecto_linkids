@@ -9,9 +9,11 @@ class AlumnoController extends \BaseController {
 	 */
 	public function index() 
 	{
-		$alumnos = Alumno::all();
+                $rucio = Auth::user()->id;
+		$alumnos = Alumno::where('usuario_id','=',$rucio)->get();
 		return View::make('alumnos.index')->with('alumnos', $alumnos);
 	}
+
 
 
 	/**
@@ -38,10 +40,11 @@ class AlumnoController extends \BaseController {
 		$alumno->nivel = Input::get('nivel');
 		$alumno->direccion = Input::get('direccion');
 		$alumno->telefono = Input::get('telefono');
-		$alumno->usuario_id = Input::get('usuario_id');
+		$alumno->usuario_id = Auth::user()->id;
 		$alumno->save();
 		return Redirect::to('alumnos');
 	}
+	
 
 
 	/**
