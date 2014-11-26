@@ -7,13 +7,23 @@ class MensualidadController extends \BaseController {
 	 *
 	 * @return Response
 	 */
+	 
+	 
+	 
 	public function index()
 	{
-		$mensualidads = Mensualidad::all();
+		
+		 $rucio = Auth::user()->id;
+                $a = Alumno::find($rucio);
+		$mensualidads = Mensualidad::where('alumno_id','=',$a->id)->get();
+		return View::make('mensualidads.index')->with('mensualidads', $mensualidads); 
+		
+	}
+		/*$mensualidads = Mensualidad::all();
 		return View::make('mensualidads.index')->with('mensualidads', $mensualidads);
 	}
 
-
+*/
 	/**
 	 * Show the form for creating a new resource.
 	 *
@@ -37,7 +47,8 @@ class MensualidadController extends \BaseController {
 		$mensualidad->fechapago = Input::get('fechapago');
 		$mensualidad->monto = Input::get('monto');
 		$mensualidad->estado = Input::get('estado');
-		$mensualidad->alumno_id = Input::get('alumno_id');
+		$mensualidad->alumno_id = Auth::user()->id;
+		
 		$mensualidad->save();
 		return Redirect::to('mensualidads');
 	}

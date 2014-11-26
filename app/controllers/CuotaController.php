@@ -44,7 +44,8 @@ class CuotaController extends \BaseController {
 		$cuota = new Cuota;
 		$cuota->MontoPagado = Input::get('MontoPagado');
 		$cuota->FechaCuota = Input::get('FechaCuota');
-		$cuota->alumno_id = Input::get('alumno_id');
+		
+		$cuota->alumno_id = Auth::user()->id;
 		$cuota->save();
 		return Redirect::to('cuotas');
 	}

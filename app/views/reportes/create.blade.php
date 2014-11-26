@@ -48,14 +48,11 @@
 	<h3>Siesta: {{ Form::text('Siesta', null, array('placeholder' => 'Introduce tu Siesta')) }} (*)</h3> 
 	<h3>Fecha: {{ Form::text('Fecha', null, array('placeholder' => 'Introduce tu Fecha')) }} (*)</h3>
 	<h3>Cuerpo: {{ Form::text('Cuerpo', null, array('placeholder' => 'Introduce tu Cuerpo')) }} (*)</h3>
-    <h3>Alumno ID: {{ Form::text('alumno_id', null, array('placeholder' => 'Introduce el Alumno ID')) }} (*)</h3>
+   
     <br/><h4>(*) Todos los campos son obligatorios.</h4>
 	<h4>Haga "click" en GUARDAR para salvar el nuevo Reporte ingresado.</h4></br>
 	<button>{{ Form::submit('Guardar') }}</button>
 	{{ Form::close() }}
-
-	<br/><br/><button><h2>{{HTML::link('logout','SALIR')}}</h2></button>
-	<button><h3><a href="/reportes/">VOLVER</a></button></h3></button>
 
 	<br/><footer>Proyecto Ingeniería de Software - UTEM 2014<br/>
 				por Gladys Cerro Miranda y Joaquín Macías Cáceres</footer>

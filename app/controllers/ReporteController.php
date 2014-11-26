@@ -9,7 +9,14 @@ class ReporteController extends \BaseController {
 	 */
 	public function index()
 	{
-		$reportes = Reporte::all();
+		
+		 $rucio = Auth::user()->id;
+                $b = Alumno::find($rucio);
+		$reportes = Reporte::where('alumno_id','=',$b->id)->get();
+		return View::make('reportes.index')->with('reportes', $reportes);
+		
+	}
+		/*$reportes = Reporte::all();
 		return View::make('reportes.index')->with('reportes', $reportes);
 	}
 
@@ -38,7 +45,8 @@ class ReporteController extends \BaseController {
 		$reporte->Siesta = Input::get('Siesta');
 		$reporte->Fecha = Input::get('Fecha');
 		$reporte->Cuerpo = Input::get('Cuerpo');
-		$reporte->alumno_id = Input::get('alumno_id');
+		$reporte->alumno_id = Auth::user()->id;
+		
 		$reporte->save();
 		return Redirect::to('reportes');
 	}

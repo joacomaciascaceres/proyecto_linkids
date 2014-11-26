@@ -46,14 +46,11 @@
 	{{ Form::open(array('url' => 'cuotas')) }}
 	<h3>Fecha Cuota: {{ Form::text('FechaCuota', null, array('placeholder' => 'Introduce la Fecha de tu Cuota')) }} (*)</h3>
 	<h3>Monto Pagado: {{ Form::text('MontoPagado', null, array('placeholder' => 'Introduce el Monto Pagado')) }} (*)</h3>
-    <h3>Alumno ID: {{ Form::text('alumno_id', null, array('placeholder' => 'Introduce el Alumno ID')) }} (*)</h3>
+    
     <br/><h4>(*) Todos los campos son obligatorios.</h4>
 	<h4>Haga "click" en GUARDAR para salvar la nueva Cuota ingresada.</h4></br>
 	<button>{{ Form::submit('Guardar') }}</button>
 	{{ Form::close() }}
-
-	<br/><br/><button><h2>{{HTML::link('logout','SALIR')}}</h2></button>
-	<button><h3><a href="/cuotas/">VOLVER</a></button></h3></button>
 
 	<br/><footer>Proyecto Ingeniería de Software - UTEM 2014<br/>
 				por Gladys Cerro Miranda y Joaquín Macías Cáceres</footer>
